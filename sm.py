@@ -1,6 +1,6 @@
 '''
 Sitemap page generator by the Cleomancer.
-using os and Path this little script sift through the directory it's in
+using os and Path this little script sifts through the directory it's in
 and looks for every HTML/XHTML file paths that exists within.
 This includes subdirectories. Then through clever printing it writes
 an XHTML page listing every link in an unordered list.
@@ -13,7 +13,7 @@ import os
 
 sm = open("sitemap.xhtml", "w")
 
-output="<!DOCTYPE html>\n<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'>\n<head><meta charset='utf-8' />\n<meta name='viewport' content='width=device-width, initial-scale=1' />\n<link rel='stylesheet' type='text/css' href='./styleblog.css' />\n<link rel='icon' type='image/x-icon' href='./static/favicon.ico' />\n<title>Sitemap</title>\n</head>\n<body id='sitemap'>"
+output="<!DOCTYPE html>\n<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'>\n<head><meta charset='utf-8' />\n<meta name='viewport' content='width=device-width, initial-scale=1' />\n<link rel='stylesheet' type='text/css' href='./style.css' />\n<link rel='icon' type='image/x-icon' href='./static/favicon.ico' />\n<title>Sitemap</title>\n</head>\n<body id='sitemap'>"
 
 sm.write(output)
 
