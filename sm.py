@@ -13,7 +13,7 @@ import os
 
 sm = open("sitemap.xhtml", "w")
 
-output="<!DOCTYPE html>\n<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'>\n<head><meta charset='utf-8' />\n<meta name='viewport' content='width=device-width, initial-scale=1' />\n<link rel='stylesheet' type='text/css' href='./style.css' />\n<link rel='icon' type='image/x-icon' href='./static/favicon.ico' />\n<title>Sitemap</title>\n</head>\n<body id='sitemap'>"
+output="<!DOCTYPE html>\n<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'>\n<head><meta charset='utf-8' />\n<meta name='viewport' content='width=device-width, initial-scale=1' />\n<link rel='stylesheet' type='text/css' href='./style.css' />\n<link rel='icon' type='image/x-icon' href='./static/favicon.ico' />\n<title>Sitemap</title>\n</head>\n<body id='sitemap'><h1>Sitemap</h1>"
 
 sm.write(output)
 
